@@ -20,7 +20,7 @@ if (license == 'Boost Software 1.0') {
   licenseString = `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]`
 } else
 if (license == 'BSD 3-Clause') {
-  licenseString = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]`
+  licenseString = `![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`
 }
 
 return `Here is the license: ${licenseString}`;
