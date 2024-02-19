@@ -14,6 +14,12 @@ const questions = [
 
     {
         type: 'input',
+        name: 'GitHub',
+        message: 'What is your GitHub username?'
+    },
+
+    {
+        type: 'input',
         name: 'Project',
         message: 'What is your project called?'
     },
@@ -39,8 +45,15 @@ const questions = [
     {
         type: 'input',
         name: 'Dependencies',
-        message: 'What command should be run in order to install dependencies?'
+        message: 'Does the user need to know anything in order to install and manage dependencies?'
     },
+
+    {
+        type: 'input',
+        name: 'Usage',
+        message: 'Does the user need to know anything in order to use this application?'
+    },
+
 
     {
         type: 'list',
@@ -52,11 +65,6 @@ const questions = [
         ],
     },
 
-    {
-        type: 'input',
-        name: 'Repo',
-        message: 'Is there anything the user needs to know about using the repo?'
-    },
 
 
     {
