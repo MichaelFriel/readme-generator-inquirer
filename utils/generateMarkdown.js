@@ -9,6 +9,7 @@ ${licenseString}
 - [Usage](#usage)
 - [License](#license)
 - [Tests](#tests)
+- [Contribution](#contribution)
 - [Questions](#questions)
 
 ## Description
@@ -25,6 +26,9 @@ This application is covered under the ${data.license} License
 
 ## Tests
 ${data.Tests}
+
+## Contribution
+${data.Contribution}
 
 ## Questions
 If you have any questions, you can contact me in the following ways:<br/>
