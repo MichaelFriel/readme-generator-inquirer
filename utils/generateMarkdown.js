@@ -3,13 +3,13 @@ function generateMarkdown(data) {
   const licenseString = licenseImages(data.license);
   return `# ${data.Project}
 ${licenseString}
-## Contents
+## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Tests](#tests)
-- [Contribution](#contribution)
+- [Contribution](#contributing)
 - [Questions](#questions)
 
 ## Description
@@ -27,7 +27,7 @@ This application is covered under the ${data.license} License
 ## Tests
 ${data.Tests}
 
-## Contribution
+## Contributing
 ${data.Contribution}
 
 ## Questions
