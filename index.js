@@ -3,7 +3,6 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-console.log("Hello World!")
 // array of questions for user
 const questions = [
     {
@@ -75,9 +74,6 @@ const questions = [
 
 ];
 
-
-
-console.log("This is a console test for", process.argv[3])
 
 // function to write README file
 function writeToFile(fileName, data) {
