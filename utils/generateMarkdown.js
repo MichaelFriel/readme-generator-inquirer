@@ -4,13 +4,13 @@ function generateMarkdown(data) {
   return `# ${data.Project}
 ${licenseString}
 ## Contents
-1. Description
-2. Installation
-3. Usage
-4. License
-5. Contributions
-6. Tests
-7. Questions
+1. [Description](##Description)
+2. [Installation](##Installation)
+3. [Usage](##Usage)
+4. [License](##License)
+5. [Contributions](##Contributions)
+6. [Tests](##Tests)
+7. [Questions](##Questions)
 
 ## Description
 ${data.Description}

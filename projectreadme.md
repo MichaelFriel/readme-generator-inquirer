@@ -1,25 +1,25 @@
-# Read Me Generator
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+# ReadMe Generator
+![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
 ## Contents
-1. Description
-2. Installation
-3. Usage
-4. License
-5. Contributions
-6. Tests
-7. Questions
+1. [Description](##Description)
+2. [Installation](##Installation)
+3. [Usage](##Usage)
+4. [License](##License)
+5. [Contributions](##Contributions)
+6. [Tests](##Tests)
+7. [Questions](##Questions)
 
 ## Description
-This application allows a user to create a Read Me from the command line.
+This application allows the user to dynamically create a ReadMe file, via the C
 
 ## Installation
-They will need to install inquire and utils
+Install of Inquirer and Utils is required.
 
 ## Usage
-Nothing in particular. Just initialise via node index.js
+This uses the inquirer package to ask questions about the ReadMe content. This can be initialised by typing the node index.js command into the terminal.
 
 ## License
-This application is covered under the Apache 2.0 License
+This application is covered under the Boost Software 1.0 License
 
 ## Tests
 No - currently no tests available
