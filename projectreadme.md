@@ -1,14 +1,14 @@
 # ReadMe Generator
 ![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
 ## Contents
-1. [Description](##Description)
-2. [Installation](##Installation)
-3. [Usage](##Usage)
-4. [License](##License)
-5. [Contributions](##Contributions)
-6. [Tests](##Tests)
-7. [Questions](##Questions)
-
+- [ReadMe Generator](#readme-generator)
+  - [Contents](#contents)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Questions](#questions)
 ## Description
 This application allows the user to dynamically create a ReadMe file, via the C
 
